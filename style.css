@@ -1,0 +1,282 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+.page {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+}
+
+.greenheader {
+  height: 1vh;
+  background-color: green;
+}
+
+.grayheader {
+  height: 15vh;
+  width: 100vw;
+  background-color: #F7F7F7;
+}
+.grayheader .grayheaderContent {
+  padding: 25px 60px 0px;
+  height: inherit;
+}
+.grayheader .grayheaderContent .logoPicture {
+  width: 68px;
+  height: 68px;
+}
+.grayheader .grayheaderContent .dropdownMenu {
+  position: relative;
+  border: 0;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.grayheader .grayheaderContent .dropdownMenu:hover .dropcontent {
+  display: block;
+}
+.grayheader .grayheaderContent .dropdownMenu:hover .dropbtn {
+  background-color: black;
+  color: white;
+}
+.grayheader .grayheaderContent .dropdownMenu .dropbtn {
+  border: 0;
+  background-color: #F7F7F7;
+  color: black;
+  font-size: 14pt;
+  transition: 0.5s;
+}
+.grayheader .grayheaderContent .dropdownMenu .dropcontent {
+  border: 0;
+  display: none;
+  background-color: #F7F7F7;
+  position: absolute;
+  min-width: 300px;
+  padding: 20px 20px;
+}
+.grayheader .grayheaderContent .dropdownMenu .dropcontent a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  background-color: #F7F7F7;
+  padding: 5% 5%;
+}
+.grayheader .grayheaderContent .dropdownMenu .dropcontent a:hover {
+  background-color: black;
+  color: white;
+}
+.grayheader .grayheaderContent .livestorebtn {
+  border: 0;
+  background-color: #F7F7F7;
+  color: black;
+  font-size: 16pt;
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.grayheader .grayheaderContent .livestorebtn:hover {
+  background-color: black;
+  color: white;
+}
+.grayheader .grayheaderContent .annivesarybtn {
+  border: 0;
+  background-color: #F7F7F7;
+  color: black;
+  font-size: 16pt;
+  transition: 0.5s;
+  margin-top: 30px;
+  padding-left: 40px;
+  position: relative;
+}
+.grayheader .grayheaderContent .annivesarybtn:hover {
+  background-color: black;
+  color: white;
+}
+.grayheader .grayheaderContent .annivesarybtn:after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url(./PICTURE/25週年星巴克.png);
+  background-size: cover;
+  top: -9px;
+  left: -7px;
+}
+.grayheader .grayheaderContent .recuritbtn {
+  border: 0;
+  background-color: #F7F7F7;
+  right: 1;
+  padding: 10px;
+  position: relative;
+  margin-left: 50px;
+}
+.grayheader .grayheaderContent .recuritbtn:hover {
+  color: rgb(114, 109, 109);
+}
+.grayheader .grayheaderContent .mapbtn {
+  border: 0;
+  background-color: #F7F7F7;
+  right: 0;
+  padding: 10px;
+}
+.grayheader .grayheaderContent .mapbtn:hover {
+  color: rgb(114, 109, 109);
+}
+
+.moonfestival {
+  height: 90vh;
+  margin-top: 20px;
+}
+.moonfestival img {
+  width: 90vw;
+}
+
+.reward {
+  height: 60vh;
+  background-image: url(./PICTURE/reward.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.reward .moreinformationbtn {
+  position: relative;
+  border: 1px solid green;
+  border-radius: 1em;
+  left: 348px;
+  top: 272px;
+  background-color: #F7F7F7;
+  font-size: 16pt;
+  color: green;
+  font-weight: bold;
+}
+.reward .moreinformationbtn:hover {
+  background-color: green;
+  color: white;
+}
+.reward img {
+  width: 90vw;
+}
+.reward .signupbtn {
+  border: 1px solid green;
+  position: relative;
+  left: 355px;
+  top: 272px;
+  background-color: #F7F7F7;
+  font-size: 16pt;
+  border-radius: 1em;
+  color: green;
+  font-weight: bold;
+}
+.reward .signupbtn:hover {
+  background-color: green;
+  color: white;
+}
+.reward .activetybtn {
+  border: 1px solid green;
+  position: relative;
+  left: 475px;
+  top: 245px;
+  background-color: #F7F7F7;
+  font-size: 16pt;
+  border-radius: 1em;
+  color: green;
+  font-weight: bold;
+}
+.reward .activetybtn:hover {
+  background-color: green;
+  color: white;
+}
+.reward .goldbtn {
+  border: 1px solid green;
+  position: relative;
+  left: 545px;
+  top: 215px;
+  background-color: #F7F7F7;
+  font-size: 16pt;
+  border-radius: 1em;
+  color: green;
+  font-weight: bold;
+}
+.reward .goldbtn:hover {
+  background-color: green;
+  color: white;
+}
+.reward .actionbtn {
+  border: 1px solid green;
+  position: relative;
+  left: 610px;
+  top: 242px;
+  background-color: #F7F7F7;
+  font-size: 16pt;
+  border-radius: 1em;
+  color: green;
+  font-weight: bold;
+}
+.reward .actionbtn:hover {
+  background-color: green;
+  color: white;
+}
+.reward .recylebtn {
+  border: 1px solid green;
+  position: relative;
+  left: 678px;
+  top: 210px;
+  background-color: #F7F7F7;
+  font-size: 16pt;
+  border-radius: 1em;
+  color: green;
+  font-weight: bold;
+}
+.reward .recylebtn:hover {
+  background-color: green;
+  color: white;
+}
+
+.fourbox {
+  height: 190vh;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.fourbox .four {
+  width: 44vw;
+  margin-top: 10px;
+}
+
+.socialmedia {
+  height: 10vh;
+  margin-top: 10px;
+  background-color: #F7F7F7;
+}
+.socialmedia .socialmediacontent {
+  height: inherit;
+  background-color: #F7F7F7;
+}
+.socialmedia .fa-brands {
+  margin-top: 15px;
+  margin-right: 10px;
+  color: rgb(88, 86, 86);
+}
+.socialmedia .fa-brands:hover {
+  color: rgb(122, 120, 120);
+}
+
+.footer {
+  background-color: #F7F7F7;
+}
+.footer .footercontent {
+  display: flex;
+  margin-top: 10px;
+  height: 50vh;
+}
+.footer h3 {
+  margin-top: 40px;
+  margin-right: 150px;
+}
+.footer p {
+  font-size: 14pt;
+  margin-top: 15px;
+}
+.footer a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

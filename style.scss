@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+}
+.page{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+}
+.greenheader{
+    height: 1vh;
+    background-color: green;
+}
+.grayheader{
+    height: 15vh;
+    width: 100vw;
+    background-color: #F7F7F7;
+    .grayheaderContent{
+        padding: 25px 60px 0px;
+        height: inherit;
+        .logoPicture{
+            width: 68px;
+            height: 68px;
+        }
+        .dropdownMenu{
+            position: relative;
+            border: 0;
+            margin-top: 30px;
+            margin-left: 20px;
+            &:hover{
+                .dropcontent{
+                    display: block;
+                }
+                .dropbtn{
+                    background-color: black;
+                    color: white;
+                }
+            }
+            .dropbtn{
+                border: 0;
+                background-color: #F7F7F7;
+                color: black;
+                font-size: 14pt;
+                transition: 0.5s;
+            }
+            .dropcontent{
+                border: 0;
+                display: none;
+                background-color: #F7F7F7;
+                position: absolute;
+                min-width: 300px;
+                padding: 20px 20px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    background-color: #F7F7F7;
+                    padding: 5% 5%;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .livestorebtn{
+            border: 0;
+            background-color: #F7F7F7;
+            color: black;
+            font-size: 16pt;
+            transition: 0.5s;
+            margin-top: 30px;
+            margin-left: 30px;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+        .annivesarybtn{
+            border: 0;
+            background-color: #F7F7F7;
+            color: black;
+            font-size: 16pt;
+            transition: 0.5s;
+            margin-top: 30px;
+            padding-left: 40px;
+            position: relative;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+            &:after{
+                position: absolute;
+                content: '';
+                width: 50px;
+                height: 50px;
+                background-image: url(./PICTURE/25週年星巴克.png);
+                background-size: cover;
+                top: -9px;
+                left: -7px;
+            }
+        }
+        .recuritbtn{
+            border: 0;
+            background-color: #F7F7F7;
+            right:1;
+            padding: 10px;
+            position: relative;
+            margin-left: 50px;
+            &:hover{
+                color: rgb(114, 109, 109);
+            }
+        }
+        .mapbtn{
+            border: 0;
+            background-color: #F7F7F7;
+            right: 0;
+            padding: 10px;
+            &:hover{
+                color: rgb(114, 109, 109);
+            }
+        }
+    }
+
+
+}
+.moonfestival{
+    height: 90vh;
+    margin-top: 20px;
+    img{
+        width: 90vw;
+    }
+
+}
+
+.reward{
+    height: 60vh;
+    background-image: url(./PICTURE/reward.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    .moreinformationbtn{
+        position: relative;
+        border: 1px solid green;
+        border-radius: 1em;
+        left: 348px;
+        top: 272px;
+        background-color: #F7F7F7;
+        font-size: 16pt;
+        color: green;
+        font-weight: bold;
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+    img{
+        width: 90vw;
+    }
+    .signupbtn{
+        border: 1px solid green;
+        position: relative;
+        left: 355px;
+        top: 272px;
+        background-color: #F7F7F7;
+        font-size: 16pt;
+        border-radius: 1em;
+        color: green;
+        font-weight: bold;
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+    .activetybtn{
+        border: 1px solid green;
+        position: relative;
+        left: 475px;
+        top: 245px;
+        background-color: #F7F7F7;
+        font-size: 16pt;
+        border-radius: 1em;
+        color: green;
+        font-weight: bold;
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+    .goldbtn{
+        border: 1px solid green;
+        position: relative;
+        left: 545px;
+        top: 215px;
+        background-color: #F7F7F7;
+        font-size: 16pt;
+        border-radius: 1em;
+        color: green;
+        font-weight: bold;
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+    .actionbtn{
+        border: 1px solid green;
+        position: relative;
+        left: 610px;
+        top: 242px;
+        background-color: #F7F7F7;
+        font-size: 16pt;
+        border-radius: 1em;
+        color: green;
+        font-weight: bold;
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+    .recylebtn{
+        border: 1px solid green;
+        position: relative;
+        left: 678px;
+        top: 210px;
+        background-color: #F7F7F7;
+        font-size: 16pt;
+        border-radius: 1em;
+        color: green;
+        font-weight: bold;
+        &:hover{
+            background-color: green;
+            color: white;
+        }
+    }
+}
+.fourbox{
+    height: 190vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    .four{
+        width: 44vw;
+        margin-top: 10px;
+    }
+}
+.socialmedia{
+    height: 10vh;
+    margin-top: 10px;
+    background-color: #F7F7F7;
+    .socialmediacontent{
+        height: inherit;
+        background-color: #F7F7F7;
+    }
+    .fa-brands{
+        margin-top: 15px;
+        margin-right: 10px;
+        color: rgb(88, 86, 86);
+        &:hover{
+            color: rgb(122, 120, 120);
+        }
+    }
+}
+.footer{
+    background-color: #F7F7F7;
+    .footercontent{
+        display: flex;
+        margin-top: 10px;
+        height: 50vh;
+    }
+    h3{
+        margin-top: 40px;
+        margin-right: 150px;
+    }
+    p{
+        font-size: 14pt;
+        margin-top: 15px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
